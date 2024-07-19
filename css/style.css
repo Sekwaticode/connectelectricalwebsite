@@ -61,7 +61,8 @@ body {
   line-height: 1.5;
   color: #818491;
   text-align: left;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
+  
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -528,6 +529,11 @@ mark,
 
 .img-fluid {
   max-width: 100%;
+  height: auto;
+}
+
+.img-fluid-modal {
+  max-width: 50%;
   height: auto;
 }
 
